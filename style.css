@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+/* phone font size  */
+.FnSzPh16{
+    font-size: 16px;
+}
+.FnSzPh14{
+    font-size: 14px;
+}
+.FnSzPh32{
+    font-size: 32px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background: #F2F2F2;
+    overflow-x: hidden;
+}
+.padding{
+    padding: 16px 16px 0px 16px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logo{
+    color: #13183F;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35.26px;
+}
+.first_start{
+    color: white;
+    background-color: #13183F;
+    padding: 9px 24px 11px 24px;
+    border-radius: 28px;
+    font-weight: 700;
+    height: 41px;
+}
+.about{
+    margin-top: 38px;
+}
+.slogan{
+    color: #13183F;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50.4px;
+}
+.info{
+    font-weight: 500;
+    line-height: 26px;
+    color: #83869A;
+    margin-top: 26px;
+    margin-bottom: 39px;
+}
+.second_start{
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 26px;
+    border-radius: 31.5px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    padding: 15px 37px 15px 38px;
+}
+.women_position{
+    margin-top: 101px;
+    padding: 0px 0px 136px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.tablet_background_line,
+.women_style_desktop,
+.women_style_tablet,
+.background2{
+    display: none;
+}
+.women_style_mobile{
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 158.5px;
+}
+.quantity{
+    background: #FFFFFF;
+    box-shadow: 0px 34px 54px rgba(6, 22, 141, 0.158854);
+    border-radius: 10px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -63px;
+    margin-top: -24px;
+    order: 1;
+}
+.members{
+    color: #83869A;
+    font-weight: 700;
+    line-height: 28px;
+    padding: 16px 20px 0px 20px;
+}
+.number_of_members{
+    color: #13183F;
+    font-weight: 800;
+    line-height: 40.32px;
+    padding: 0px 27px 16px 20px;
+}
+.course_duration{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-right: -114px;
+    margin-bottom: -30px;
+    background: #FFFFFF;
+    box-shadow: 0px 34px 54px rgba(6, 22, 141, 0.158854);
+    border-radius: 10px;
+    height: 100px;
+    order: -1;
+    z-index: 1;
+}
+.course_hours{
+    color: #83869A;
+    font-weight: 700;
+    line-height: 28px;
+    padding: 16px 0px 0px 20px;
+}
+.number{
+    color: #13183F;
+    font-weight: 800;
+    line-height: 40.32px;
+    padding: 0px 54px 16px 20px;
+}
+.courses_boxses{
+    padding: 96px 16px 80px 16px;
+}
+.offer{
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 10px;
+}
+.offer_text{
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    padding: 24px 29px 32px 28px;
+}
+.box1{
+    background-color: #FFFFFF;
+    margin-top: 40px ;
+    border-radius: 10px;
+}
+.icon{
+    margin-top: -24px;
+    margin-left: 28px;
+}
+.box_padding{
+    padding: 24px 29px 32px 28px;
+}
+.box_title{
+    color: #13183F;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25.2px;
+}
+.info_about_course{
+    color: #83869A;
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.get_start_course_bttn{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F74780;
+}
+.bottom_nav{
+    background-color: #13183F;
+    min-width: 100%;
+}
+.padding_for_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 16px;
+}
+.skilled_for_footer{
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35.28px;
+}
+.start_for_footer{
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 28px;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    border-radius: 28px;
+    padding: 9px 24px 11px 24px;
+}
+@media (min-width: 768px) {
+    .padding{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        padding: 24px 40px 0px 40px;
+    }
+   
+    .nav{
+        grid-column: 1 / span 2;
+    }
+    .about{
+        margin-top: 105px;
+    }
+    .women_style_mobile{
+        display: none;
+    }
+    .women_style_tablet{
+        display: block;
+        align-self: flex-end;
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        border-radius: 158.5px;
+        padding-top: 52.6px;
+    }
+    .women_position{
+        margin-top: 50px;
+        margin-right: -10px;
+        /* padding-bottom: 136.7px; */
+        justify-content: right;
+    }
+    .quantity{
+        margin-top: -13.77px;
+        margin-left: -53.5px;
+    }
+    .course_duration{
+        margin-right: -109.69px;
+        margin-bottom: -37.7px;
+    }
+    /* women bg line */
+    .tablet_background_line{    
+        display: block;
+        position: relative ;
+        z-index: -1;
+    }
+    .backgroundd{
+        position: absolute;
+        top: -126px;
+        right: -87px;
+    }
+    
+    /* boxses */
+    .courses_boxses{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 56px 10px;
+        padding: 0px 40px 86px 40px;
+    }
+    .offer_text{
+        padding: 56px 32px 139px 32px ;
+    }
+    .box1{
+        margin-top: 0px;
+    }
+}
+@media (min-width: 1440px){
+    /* grid properties for desktop */
+    .padding{
+        grid-template-columns: 50% 50%;
+        padding: 29px 165px 110px 165px;
+    }
+    .about{
+        margin-top: 178px;
+    }
+    .women_position{
+        margin-top: 87px;
+        padding-bottom: 0px;
+    }
+    .courses_boxses{
+        grid-template-columns: auto auto auto;
+        padding: 0px 165px 140px 165px;
+        gap: 80px 30px;
+    }
+    .padding_for_footer{
+        padding: 32px 165px 32px 165px;
+    }
+    /* women picture adjuste for desktop */
+    .women_style_tablet,
+    .tablet_background_line{
+        display: none;
+    }
+    .women_style_desktop{
+        display: block;
+        align-self: flex-end;
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        border-radius: 158.5px;
+        padding-top: 77px;
+    }
+    .desktop_background_line{
+        display: block;
+        position: relative ;
+        z-index: -1;
+
+    }
+    .background2{
+        display: block;
+        position: absolute;
+        top: -169px;
+        right: -221px;
+    }
+    .quantity{
+        margin-top: 103px;
+        margin-left: -36.74px;
+    }
+
+    .course_duration{
+        margin-right: -111.74px;
+        margin-bottom: 98px;
+    }
+
+
+
+    /* hovers */
+    /* nav getstart hover */
+    .first_start:hover{
+        background-color: #666CA3;
+        transition: ease-in-out 0.5s;
+    }
+    .second_start:hover{
+        opacity: 50%;
+        transition: ease-in-out 0.5s;
+    }
+    /* box getstarted hovers */
+    .get_start_course_bttn:hover{
+        color: #FFA7C3;
+        transition: ease-in-out 0.5s;
+    }
+    /* footer getstart hover */
+    .start_for_footer:hover{
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5),
+         rgba(255, 255, 255, 0.5)), 
+         linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    }
+    /* font sizes for desktop */
+    .FnSzPh18{
+        font-size: 18px;
+    }
+    .FnSzPh16{
+        font-size: 16px;
+    }
+    .Logo,
+    .skilled_for_footer{
+        font-size: 36px;
+        line-height: 45.36px;
+    }
+    .slogan{
+        font-size: 56px;
+        line-height: 70.56px;
+    }
+    .FnSzPh32{
+        font-size: 32px;
+    }
+    .box_title{
+        font-size: 24px;
+        line-height: 32.24px;
+    }
+    .info_about_course{
+        line-height: 28px;
+    }
+    
+      
+
+
+
+}
